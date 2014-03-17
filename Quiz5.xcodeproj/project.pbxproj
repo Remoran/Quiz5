@@ -13,7 +13,6 @@
 		94D04B1118D3431900AA7155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B0F18D3431900AA7155 /* InfoPlist.strings */; };
 		94D04B1318D3431900AA7155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B1218D3431900AA7155 /* main.m */; };
 		94D04B1718D3431900AA7155 /* Quiz5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B1618D3431900AA7155 /* Quiz5AppDelegate.m */; };
-		94D04B1A18D3431900AA7155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B1818D3431900AA7155 /* Main.storyboard */; };
 		94D04B1D18D3431900AA7155 /* Quiz5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B1C18D3431900AA7155 /* Quiz5ViewController.m */; };
 		94D04B1F18D3431900AA7155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B1E18D3431900AA7155 /* Images.xcassets */; };
 		94D04B2618D3431900AA7155 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D04B2518D3431900AA7155 /* XCTest.framework */; };
@@ -21,6 +20,10 @@
 		94D04B2818D3431900AA7155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D04B0A18D3431900AA7155 /* UIKit.framework */; };
 		94D04B3018D3431900AA7155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B2E18D3431900AA7155 /* InfoPlist.strings */; };
 		94D04B3218D3431900AA7155 /* Quiz5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B3118D3431900AA7155 /* Quiz5Tests.m */; };
+		94D04B3C18D343BD00AA7155 /* urgent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B3B18D343BD00AA7155 /* urgent.jpg */; };
+		94D04B3F18D344E900AA7155 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B3E18D344E900AA7155 /* Task.m */; };
+		94D04B4218D6BA9500AA7155 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D04B4118D6BA9500AA7155 /* DetailViewController.m */; };
+		94D04B4618D6C08800AA7155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D04B4518D6C08800AA7155 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,6 @@
 		94D04B1418D3431900AA7155 /* Quiz5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz5-Prefix.pch"; sourceTree = "<group>"; };
 		94D04B1518D3431900AA7155 /* Quiz5AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz5AppDelegate.h; sourceTree = "<group>"; };
 		94D04B1618D3431900AA7155 /* Quiz5AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5AppDelegate.m; sourceTree = "<group>"; };
-		94D04B1918D3431900AA7155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94D04B1B18D3431900AA7155 /* Quiz5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz5ViewController.h; sourceTree = "<group>"; };
 		94D04B1C18D3431900AA7155 /* Quiz5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5ViewController.m; sourceTree = "<group>"; };
 		94D04B1E18D3431900AA7155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,12 @@
 		94D04B2D18D3431900AA7155 /* Quiz5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz5Tests-Info.plist"; sourceTree = "<group>"; };
 		94D04B2F18D3431900AA7155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D04B3118D3431900AA7155 /* Quiz5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5Tests.m; sourceTree = "<group>"; };
+		94D04B3B18D343BD00AA7155 /* urgent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urgent.jpg; sourceTree = "<group>"; };
+		94D04B3D18D344E900AA7155 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		94D04B3E18D344E900AA7155 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		94D04B4018D6BA9500AA7155 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		94D04B4118D6BA9500AA7155 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		94D04B4518D6C08800AA7155 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +120,16 @@
 		94D04B0C18D3431900AA7155 /* Quiz5 */ = {
 			isa = PBXGroup;
 			children = (
+				94D04B3B18D343BD00AA7155 /* urgent.jpg */,
+				94D04B4518D6C08800AA7155 /* Main.storyboard */,
 				94D04B1518D3431900AA7155 /* Quiz5AppDelegate.h */,
 				94D04B1618D3431900AA7155 /* Quiz5AppDelegate.m */,
-				94D04B1818D3431900AA7155 /* Main.storyboard */,
+				94D04B4018D6BA9500AA7155 /* DetailViewController.h */,
+				94D04B4118D6BA9500AA7155 /* DetailViewController.m */,
 				94D04B1B18D3431900AA7155 /* Quiz5ViewController.h */,
 				94D04B1C18D3431900AA7155 /* Quiz5ViewController.m */,
+				94D04B3D18D344E900AA7155 /* Task.h */,
+				94D04B3E18D344E900AA7155 /* Task.m */,
 				94D04B1E18D3431900AA7155 /* Images.xcassets */,
 				94D04B0D18D3431900AA7155 /* Supporting Files */,
 			);
@@ -231,7 +244,8 @@
 			files = (
 				94D04B1F18D3431900AA7155 /* Images.xcassets in Resources */,
 				94D04B1118D3431900AA7155 /* InfoPlist.strings in Resources */,
-				94D04B1A18D3431900AA7155 /* Main.storyboard in Resources */,
+				94D04B3C18D343BD00AA7155 /* urgent.jpg in Resources */,
+				94D04B4618D6C08800AA7155 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D04B4218D6BA9500AA7155 /* DetailViewController.m in Sources */,
+				94D04B3F18D344E900AA7155 /* Task.m in Sources */,
 				94D04B1318D3431900AA7155 /* main.m in Sources */,
 				94D04B1D18D3431900AA7155 /* Quiz5ViewController.m in Sources */,
 				94D04B1718D3431900AA7155 /* Quiz5AppDelegate.m in Sources */,
@@ -281,14 +297,6 @@
 				94D04B1018D3431900AA7155 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		94D04B1818D3431900AA7155 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94D04B1918D3431900AA7155 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		94D04B2E18D3431900AA7155 /* InfoPlist.strings */ = {

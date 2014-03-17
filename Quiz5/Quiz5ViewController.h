@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Quiz5ViewController : UIViewController
+@interface Quiz5ViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
